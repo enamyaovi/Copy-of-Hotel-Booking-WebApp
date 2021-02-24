@@ -20,37 +20,62 @@
     </div>
     <div class="wrapper">
         <div class="imgcontainer">
-            <span class="suite">EXECUTIVE SUITE - GH₵600.00 per night</span>
+            <span class="suite">EXECUTIVE SUITE - GH₵600.00 | Night</span>
             <img src="Img/Executive.jpg">
-            <br><button class="bookbtn" onclick="booking(600)">BOOK</button>
-            <div id="reservation" class="reservation">
-                <div class="reserve-content">
-                    <div class="reserve-header">
-                        <span>RESERVATION</span>
-                        <button class="closebtn" onclick="closing()">x</button>
-                    </div>
-                    Full Name <input id="name" type="text">
-                    <br><input id="tel" placeholder="Telephone" type="text">
-                    <input id="mail" placeholder="E-mail" type="text">
-                    <br> Check - In Date <input id="checkin" type="date">
-                    <br> Check-Out Date <input id="checkout" type="date">
-                    <br><button id="sendbtn" onclick="totalnights()">SEND</button>
-                    <br><input type="text" id="nights" placeholder="Nights">
-                    <input type="text" id="amount" placeholder="Amount">
-                </div>
+            <br><button class="bookbtn" onclick="booking(0)">BOOK</button>
+            <div class="reserve-content">
+                Full Name <input class="name" type="text">
+                <br><input class="tel" placeholder="Telephone" type="text">
+                <input class="mail" placeholder="E-mail" type="text">
+                <br> Check - In Date <input class="checkin" type="date">
+                <br> Check-Out Date <input class="checkout" type="date">
+                <br><button class="sendbtn" onclick="totalnights()">SEND</button>
+                <br><input type="text" class="nights" placeholder="Nights">
+                <input type="text" class="amount" placeholder="Amount">
+                <br><button class="cancelbtn" onclick="cancel()">CANCEL RESERVATION</button>
+                <br><button class="closebtn" onclick="closing()"><img src="Img/close.png"></button>
             </div>
         </div>
         <div class="imgcontainer">
-            <span class="suite">DOUBLE SUITE - GH₵350.00 per night</span>
+            <span class="suite">DOUBLE SUITE - GH₵350.00 | Night</span>
             <img src="Img/Double.jpg">
-            <br><button class="bookbtn" onclick="booking(350)">BOOK</button>
+            <br><button class="bookbtn" onclick="booking(1)">BOOK</button>
+            <div class="reserve-content">
+                Full Name <input class="name" type="text">
+                <br><input class="tel" placeholder="Telephone" type="text">
+                <input class="mail" placeholder="E-mail" type="text">
+                <br> Check - In Date <input class="checkin" type="date">
+                <br> Check-Out Date <input class="checkout" type="date">
+                <br><button class="sendbtn" onclick="totalnights()">SEND</button>
+                <br><input type="text" class="nights" placeholder="Nights">
+                <input type="text" class="amount" placeholder="Amount">
+                <br><button class="cancelbtn" onclick="cancel()">CANCEL RESERVATION</button>
+                <br><button class="closebtn" onclick="closing()"><img src="Img/close.png"></button>
+            </div>
+
         </div>
         <div class="imgcontainer">
-            <span class="suite">STANDARD SUITE - GH₵200.00 per night</span>
+            <span class="suite">STANDARD SUITE - GH₵200.00 | Night</span>
             <img src="Img/Standard.jpg">
-            <br><button class="bookbtn" onclick="booking(200)">BOOK</button>
+            <br><button class="bookbtn" onclick="booking(2)">BOOK</button>
+            <div class="reserve-content">
+                Full Name <input class="name" type="text">
+                <br><input class="tel" placeholder="Telephone" type="text">
+                <input class="mail" placeholder="E-mail" type="text">
+                <br> Check - In Date <input class="checkin" type="date">
+                <br> Check-Out Date <input class="checkout" type="date">
+                <br><button class="sendbtn" onclick="totalnights()">SEND</button>
+                <br><input type="text" class="nights" placeholder="Nights">
+                <input type="text" class="amount" placeholder="Amount">
+                <br><button class="cancelbtn" onclick="cancel()">CANCEL RESERVATION</button>
+                <br><button class="closebtn" onclick="closing()"><img src="Img/close.png"></button>
+            </div>
         </div>
     </div>
 </body>
 
 </html>
+
+<!-- <div class="reserve-header">
+                    <span>RESERVATION</span>
+                </div> -->
