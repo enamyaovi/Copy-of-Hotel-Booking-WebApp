@@ -71,9 +71,9 @@ function booking(x) {
     document.getElementsByClassName("sendbtn")[parseInt(position)].style.display = "inline";
     document.getElementsByClassName("cancelbtn")[parseInt(position)].style.display = "none";
     document.getElementsByClassName("closebtn")[parseInt(position)].style.display = "inline";
-    clearbook()
     document.getElementsByClassName("checkin")[parseInt(position)].setAttribute("min", today);
     document.getElementsByClassName("checkout")[parseInt(position)].setAttribute("min", today);
+    clearbook()
 }
 
 function closing() {
