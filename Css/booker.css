@@ -90,21 +90,30 @@ body{
     background: none;
     border-radius: 20%;
 }
+
 .cancelbtn {
     display: none;
     background-color: rgba(241, 164, 13, 0.6);
     margin-top: 15px;
 }
 
+.warning {
+    display: none;
+    margin: auto;
+    width: max-content;
+    font-size: 50px;
+}
+
 @media screen and (min-width: 420px) {
     body {
         background-color: white;
     }
-
+    .warning{
+        display: block;
+    } 
     .logo {
         display: none;
     }
-
     .wrapper{
         display: none;
     }
